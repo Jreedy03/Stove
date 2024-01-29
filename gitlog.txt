@@ -1,0 +1,93 @@
+I, Joseph Reedy, certify that I participated equitably in the creation of assignment C06C, dated 1/28/23.
+
+
+commit 767e5f15bf5ec256f76b3ae821b2c987ec5ef262
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 22:58:24 2024 -0700
+
+    final
+
+commit 6112c8268dd276a30ea41ee0ee00feaf56e8b87c
+Merge: 5ad51f2 9c8ae35
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 22:52:34 2024 -0700
+
+    Merge branch 'main' of https://github.com/Jreedy03/Stove
+
+commit 5ad51f22e44e76611394345ae359e66672cdd68a
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 22:50:43 2024 -0700
+
+    asd
+
+commit 9341cc7f8aa043c771d78f642516164a215a57e0
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 22:49:37 2024 -0700
+
+    update fixes
+
+commit 9c8ae35b727ddea01ab0a7af9f6c111834e815c6
+Author: caljayhack <118414686+caljayhack@users.noreply.github.com>
+Date:   Sun Jan 28 22:42:59 2024 -0700
+
+    displayStove
+
+commit 5d380525e08dcb4a8ddb83371d09b32975583f73
+Author: caljayhack <118414686+caljayhack@users.noreply.github.com>
+Date:   Sun Jan 28 22:24:17 2024 -0700
+
+    burner display()
+
+commit de4b2a58e03d45d779f8521d27b746d8fa750e58
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 18:43:10 2024 -0700
+
+    updateTemperature
+
+commit 49f66dbf83ec0de0c1ad78feff64b9696cc6fd53
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 18:11:09 2024 -0700
+
+    burner methods
+
+commit 52788f84f719e35b291cac165a526b329d052b39
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 17:53:04 2024 -0700
+
+    more setup
+
+commit 324d66ff4c1370439495d4172599902bcc54111c
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 17:46:26 2024 -0700
+
+    setting class
+
+commit 6b8e1354c9d2dd6bf7cf7ee241f39dff20a82755
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 17:35:48 2024 -0700
+
+    burner class
+
+commit 17111b3dc1afc1d66cbe098dc8f056125901028b
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 17:33:17 2024 -0700
+
+    sd
+
+commit aaa2283ccc9316e8223c95151ec11cb129bb87a5
+Author: Joseph Reedy <jreedy@mines.edu>
+Date:   Sun Jan 28 17:31:49 2024 -0700
+
+    setup
+
+commit 41878e6440f445db6852b6e3f6ae4360e3ad896b
+Author: Jreedy03 <157414020+Jreedy03@users.noreply.github.com>
+Date:   Sun Jan 28 17:30:23 2024 -0700
+
+    Add files via upload
+
+commit 3f49132dbfc86854f461f0c6b6a3f2435be7c80a
+Author: Jreedy03 <157414020+Jreedy03@users.noreply.github.com>
+Date:   Sun Jan 28 17:29:42 2024 -0700
+
+    Initial commit
