@@ -35,11 +35,10 @@ public class Stove {
 			burner.display(burner);
 			if(burner.get().equals(Burner.Temperature.BLAZING)) {
 				hot = true;
-				}
+			}
 		}
-		if(hot == true) {
+			if(hot == true) {
 			System.out.println("RED LIGHT - HOT BURNER ALERT");
-
 		}
 	}
 	
