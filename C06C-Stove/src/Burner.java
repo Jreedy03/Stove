@@ -1,5 +1,5 @@
 public class Burner {
-    private enum Temperature {
+    public enum Temperature {
         BLAZING, HOT, WARM, COLD;
     }
    private Temperature myTemperature;
