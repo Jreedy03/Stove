@@ -1,6 +1,6 @@
 public class Burner {
     private enum Temperature {
-        COLD, WARM, HOT, BLAZING;
+        BLAZING, HOT, WARM, COLD;
     }
    private Temperature myTemperature;
    private Setting mySetting;
