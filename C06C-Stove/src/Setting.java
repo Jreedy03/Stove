@@ -4,10 +4,14 @@ public enum Setting {
     MEDIUM("-++"), 
     HIGH("+++");
 
-    private String setting;
+    private String value;
 
-    Setting(String setting) {
-        this.setting = setting;
+    Setting(String value) {
+        this.value = value;
+    }
+
+    public String toString() {
+        return this.value;
     }
 
 }
