@@ -84,4 +84,8 @@ public class Burner {
             increaseTemp();
         }
     }
+    
+    public void display(Burner burner) {
+    	System.out.println(burner.mySetting.toString() + " ..... " + burner.get());
+    }
 }
