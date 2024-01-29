@@ -1,1 +1,1 @@
-# Stove
+Joseph Reedy and Callen Hacker, Section B
