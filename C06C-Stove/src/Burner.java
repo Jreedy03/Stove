@@ -4,7 +4,7 @@ public class Burner {
     }
    private Temperature myTemperature;
    private Setting mySetting;
-   private int timer;
+   private int timer = 0;
    public static final int TIME_DURATION = 2;
 
    public Temperature get() {
@@ -48,5 +48,40 @@ public class Burner {
             break;
     }
     timer = TIME_DURATION;
-}
+    }
+
+    public void increaseTemp() {
+        switch (myTemperature) {
+            case COLD:
+                if (mySetting != Setting.OFF) {
+                    myTemperature = Temperature.WARM;
+                    if (mySetting != Setting.LOW) {
+                        timer = TIME_DURATION;
+                    }
+                }
+                break;
+            case WARM:
+            if (mySetting != Setting.LOW) {
+                myTemperature = Temperature.HOT;
+                if (mySetting != Setting.MEDIUM) {
+                    timer = TIME_DURATION;
+                }
+            }
+                break;
+            case HOT:
+            if (mySetting != Setting.MEDIUM) {
+                myTemperature = Temperature.BLAZING;
+            }
+                break;
+            case BLAZING:
+                break;
+        }
+    }
+
+    public void updateTemperature() {
+        timer--;
+        if (timer == 0) {
+            increaseTemp();
+        }
+    }
 }
